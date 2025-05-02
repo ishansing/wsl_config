@@ -1,0 +1,67 @@
+# Alacritty Configuration - Clean Look with Brass Mono
+
+[window]
+padding = { x = 1, y = 1 }                 # Padding around the window
+decorations = "Full"
+startup_mode = "Windowed"
+dynamic_padding = false
+opacity = 1.0
+dimensions = { columns = 140, lines = 30 }
+
+[font]
+normal = { family = "BrassMono Nerd Font", style = "Regular" }
+bold = { family = "BrassMono Nerd Font", style = "Bold" }
+italic = { family = "BrassMono Nerd Font", style = "Italic" }
+size = 16
+offset.x = 0
+offset.y = 3                                                   # For line spacing (default: 0)
+
+[colors]
+# Soft, dark theme with gentle contrast
+[colors.bright]
+black = '#4f5258'
+blue = '#a6dbff'
+cyan = '#8cf8f7'
+green = '#b3f6c0'
+magenta = '#ffcaff'
+red = '#ffc0b9'
+white = '#eef1f8'
+yellow = '#fce094'
+
+[colors.cursor]
+cursor = '#9b9ea4'
+text = '#e0e2ea'
+
+[colors.normal]
+black = '#07080d'
+blue = '#a6dbff'
+cyan = '#8cf8f7'
+green = '#b3f6c0'
+magenta = '#ffcaff'
+red = '#ffc0b9'
+white = '#eef1f8'
+yellow = '#fce094'
+
+[colors.primary]
+background = '#0f0f0f'
+foreground = '#e0e2ea'
+
+[colors.selection]
+background = "#2e2e2e"
+text = "#ffffff"
+
+[cursor]
+style = "Beam"
+unfocused_hollow = true
+blink_interval = 500
+
+[scrolling]
+history = 5000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[terminal.shell]
+program = "wsl.exe"
+args = ["~"]
