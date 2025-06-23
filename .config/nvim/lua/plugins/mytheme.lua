@@ -1,12 +1,12 @@
 return {
   -- add vesper
-  { "ishansing/vesper.nvim" },
+  { "ishansing/neovim-rosepine" },
 
   -- Configure LazyVim to load vesper
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "vesper",
+      colorscheme = "rose-pine",
     },
   },
 }
